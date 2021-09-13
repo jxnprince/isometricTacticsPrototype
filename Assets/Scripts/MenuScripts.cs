@@ -18,4 +18,15 @@ public class MenuScripts
         }
     }
 
+    [MenuItem("Tools/Assign Tile Script")]//Makes the script availible at tools > Assign Tile Script
+    public static void AssignTileScript()
+    {
+        GameObject[] tiles = GameObject.FindGameObjectsWithTag("Tile");  //Grab all tiles from Unity and put them in an array
+
+        foreach (GameObject t in tiles)
+        {
+            t.AddComponent<Tile>(); //Assigns Tile.cs script to each tile component
+        }
+    }
 }
+
