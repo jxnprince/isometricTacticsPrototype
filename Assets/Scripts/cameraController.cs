@@ -2,6 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+TO DO
+=====
+[] Add camera maximum position limits
+[X] Add camera reset
+*/
+
 public class cameraController : MonoBehaviour
 {
     //Items surfaced in the inspector
@@ -10,11 +17,13 @@ public class cameraController : MonoBehaviour
     public float movementSpeed;
     public float movementTime;
 
-    public Vector3 newPosition; 
+    public Vector3 newPosition;
+    public Vector3 ogPosition;
 
     void Start()
     {
         newPosition = transform.position; //Prevents transform from defaulting to 0
+        ogPosition = transform.position; //Prevents transform from defaulting to 0
     }
 
     void Update()
@@ -24,7 +33,7 @@ public class cameraController : MonoBehaviour
 
     void HandleMovementInput() //Handles all camera movement input from player
     {
-        if(Input.GetKey(KeyCode.LeftShift)) //Holding left shift enables preset higher camera speed
+        if(Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) //Holding either shift enables preset higher camera speed
         {
             movementSpeed = fastSpeed;
         }
@@ -48,7 +57,12 @@ public class cameraController : MonoBehaviour
         {
             newPosition += (transform.right * -movementSpeed);
         }
+        if(Input.GetKey(KeyCode.Tab)) //Resets camera to original position and rotation
+        {
+            newPosition = (ogPosition);
 
-        transform.position = Vector3.Lerp(transform.position, newPosition, Time.deltaTime * movementTime); //Linear interpolation between original camera postion to new position over specified time  
+        }
+        transform.position = Vector3.Lerp(transform.position, newPosition, Time.deltaTime * movementTime); //Linear interpolation between original camera postion to new position over specified time
+
     }
 }
