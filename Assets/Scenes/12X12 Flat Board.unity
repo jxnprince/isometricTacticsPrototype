@@ -7993,7 +7993,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
@@ -8022,7 +8022,7 @@ Camera:
   field of view: 2
   orthographic: 0
   orthographic size: 2.5
-  m_Depth: -1
+  m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -9132,7 +9132,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100772628}
   m_LocalRotation: {x: -0.08052145, y: 0.3812272, z: 0.033353075, w: 0.9203639}
-  m_LocalPosition: {x: -45, y: 45, z: -45}
+  m_LocalPosition: {x: -45, y: 44.5, z: -45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 963194228}
@@ -9151,11 +9151,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aa2ee16b8da94bea9bb32dd4cb756e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraTransform: {fileID: 963194228}
   normalSpeed: 0.1
   fastSpeed: 0.5
   movementSpeed: 1
-  movementTime: 5
+  movementTime: 1
+  rotationAmount: 1
+  zoomAmount: {x: 0, y: -5, z: 5}
   newPosition: {x: 0, y: 0, z: 0}
+  ogPosition: {x: 0, y: 0, z: 0}
+  newRotation: {x: 0, y: 0, z: 0, w: 0}
+  ogRotation: {x: 0, y: 0, z: 0, w: 0}
+  newZoom: {x: 0, y: 0, z: 0}
+  ogZoom: {x: 0, y: 0, z: 0}
 --- !u!1 &1109655935
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,8 +5,8 @@ using UnityEngine;
 /*
 TO DO
 =====
-[] Add camera maximum position limits
-[X] Add camera reset
+[] Add camera pan limits
+[] Add focus to rotation
 */
 
 public class cameraController : MonoBehaviour
@@ -56,7 +56,7 @@ public class cameraController : MonoBehaviour
         }
 
         //Camera Panning
-        if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) //Supports `WASD` & Arrow Keys
+        if((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))) //Supports `WASD` & Arrow Keys
         {
             newPosition += (transform.forward * movementSpeed);
         }
@@ -70,8 +70,10 @@ public class cameraController : MonoBehaviour
         }
         if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
+        
             newPosition += (transform.right * -movementSpeed);
         }
+
         //Camera Rotation
         if(Input.GetKey(KeyCode.Q))
         {
@@ -81,15 +83,18 @@ public class cameraController : MonoBehaviour
         {
             newRotation *= (Quaternion.Euler(Vector3.up * -rotationAmount));
         }
+
         //Camera Zoom
-        if(Input.GetKey(KeyCode.T))
+        if(Input.GetKey(KeyCode.T) && newZoom[1] >= -25 && newZoom[2] <= 25)
         {
             newZoom += zoomAmount;
         }
-        if(Input.GetKey(KeyCode.R))
+        if(Input.GetKey(KeyCode.R)&& newZoom[1] <= 250 && newZoom[2] >= -250)
         {
+        
             newZoom -= zoomAmount;
         }
+
         //Resets camera to original position and rotation
         if(Input.GetKey(KeyCode.Tab))
         {
@@ -97,7 +102,8 @@ public class cameraController : MonoBehaviour
             newRotation = ogRotation;
             newZoom = ogZoom;
         }
-        
+
+        //Render postion, rotaion, and zoom movements
         transform.position = Vector3.Lerp(transform.position, newPosition, Time.deltaTime * movementTime); //Linear interpolation between original camera postion to new position over specified time.
         transform.rotation = Quaternion.Lerp(transform.rotation, newRotation, Time.deltaTime * movementTime); //Linear interpolation between original camera rotation to a new rotation over specified time.
         cameraTransform.localPosition = Vector3.Lerp(cameraTransform.localPosition, newZoom, Time.deltaTime * movementTime);//Linear interpolation between original camera zoom to a new zoom level over specified time.
