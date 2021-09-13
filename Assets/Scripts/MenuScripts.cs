@@ -6,7 +6,7 @@ using UnityEditor; //Added dependency to access objects in the Unity editor
 public class MenuScripts
 {
 
-    [MenuItem("Tools/Assign Tile Material")] //Makes the script availible in the tools dropdown in Unity
+    [MenuItem("Tools/Assign Tile Material")] //Makes the script availible at tools > Assign Tile Material
     public static void AssignTileMaterial() //MenuScripts programatically adds a material to all tiles on a game board
     {
         GameObject[] tiles = GameObject.FindGameObjectsWithTag("Tile");  //Grab all tiles from Unity and put them in an array
