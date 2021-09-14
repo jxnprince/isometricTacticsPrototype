@@ -5,38 +5,41 @@ using UnityEngine;
 /*
 TO DO
 =====
-[] Add camera pan limits
-[] Add focus to rotation
+[] Fix rotation
+[] Refactor camera pan limits with Mathf.clamp()
+[] Add camera focus
 */
 
 public class cameraController : MonoBehaviour
 {
-    public Transform cameraTransform;
     //Items surfaced in the inspector
     public float normalSpeed;
     public float fastSpeed;
     public float movementSpeed;
     public float movementTime;
     public float rotationAmount;
-    public Vector3 zoomAmount;
 
+    public Vector3 zoomAmount;
     public Vector3 newPosition;
     public Vector3 ogPosition;
-    public Quaternion newRotation;
-    public Quaternion ogRotation;
     public Vector3 newZoom;
     public Vector3 ogZoom;
+
+    public Quaternion newRotation;
+    public Quaternion ogRotation;
+
+    public Transform cameraTransform;
 
     void Start()
     {
         newPosition = transform.position; //Prevents transform from defaulting to 0
-        ogPosition = transform.position; //Keeps track of original camera placement
+        ogPosition = transform.position; //Original camera placement
 
-        newRotation = transform.rotation; //Keeps track of current camera rotation
-        ogRotation = transform.rotation; //Keeps track of original camera rotation
+        newRotation = transform.rotation; //Current camera rotation
+        ogRotation = transform.rotation; //Original camera rotation
 
-        newZoom = cameraTransform.localPosition; //Keeps track of current camera zoom
-        ogZoom = cameraTransform.localPosition; //Keeps track of original camera zoom
+        newZoom = cameraTransform.localPosition; //Current camera zoom
+        ogZoom = cameraTransform.localPosition; //original camera zoom
     }
 
     void Update()
@@ -46,7 +49,7 @@ public class cameraController : MonoBehaviour
 
     void HandleMovementInput() //Handles all camera movement input from player
     {
-        if(Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) //Holding either shift enables preset higher camera speed
+        if(Input.GetKey(KeyCode.LeftShift) ) //Holding shift enables preset higher camera speed
         {
             movementSpeed = fastSpeed;
         }
@@ -56,22 +59,33 @@ public class cameraController : MonoBehaviour
         }
 
         //Camera Panning
-        if((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))) //Supports `WASD` & Arrow Keys
+        if((Input.GetKey(KeyCode.W))) //Supports `WASD` & Arrow Keys
         {
+            if(newPosition[1] < 45.8f) //Upper camera limit
+            {
             newPosition += (transform.forward * movementSpeed);
+            }
         }
-        if(Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+        if(Input.GetKey(KeyCode.S))
         {
+            if(newPosition[1] > 43.4f) //Lower camera limit
+            {
             newPosition += (transform.forward * -movementSpeed);
+            }
         }
-        if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        if(Input.GetKey(KeyCode.D))
         {
+            if(newPosition[0] < -40f) //Right camera limit
+            {
             newPosition += (transform.right * movementSpeed);
+            }
         }
-        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        if(Input.GetKey(KeyCode.A))
         {
-        
+            if(newPosition[0] > -50f) //Left camera limit
+            {
             newPosition += (transform.right * -movementSpeed);
+            }
         }
 
         //Camera Rotation

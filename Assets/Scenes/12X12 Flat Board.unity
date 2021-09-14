@@ -9151,19 +9151,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aa2ee16b8da94bea9bb32dd4cb756e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraTransform: {fileID: 963194228}
-  normalSpeed: 0.1
-  fastSpeed: 0.5
-  movementSpeed: 1
-  movementTime: 1
+  normalSpeed: 0.25
+  fastSpeed: 1
+  movementSpeed: 0.25
+  movementTime: 1000
   rotationAmount: 1
   zoomAmount: {x: 0, y: -5, z: 5}
   newPosition: {x: 0, y: 0, z: 0}
   ogPosition: {x: 0, y: 0, z: 0}
-  newRotation: {x: 0, y: 0, z: 0, w: 0}
-  ogRotation: {x: 0, y: 0, z: 0, w: 0}
   newZoom: {x: 0, y: 0, z: 0}
   ogZoom: {x: 0, y: 0, z: 0}
+  newRotation: {x: 0, y: 0, z: 0, w: 0}
+  ogRotation: {x: 0, y: 0, z: 0, w: 0}
+  cameraTransform: {fileID: 963194228}
 --- !u!1 &1109655935
 GameObject:
   m_ObjectHideFlags: 0
