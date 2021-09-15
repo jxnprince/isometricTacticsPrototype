@@ -22,3 +22,16 @@ Stat governing the effectiveness of various magical spells.
 ###### **Magic Defence**
 Stat governing damage reduction of of incoming magical attacks.
 
+
+## Character Classes
+###### **Fighter**
+Class specializes in the Stength & Defence stats with light specialization in Health Points.
+
+###### **Rogue / Archer**
+Class specializes in the Stamina & Speed stats with light specialization in Magic.
+
+###### **Mage**
+Class specializes in the Magic & Magic Defence stats with light specialization in Health Points.
+
+###### **Cleric**
+Class heavy specialization in the Magic stats with light specialization in Magic Points.
