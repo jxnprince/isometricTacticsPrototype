@@ -45,7 +45,7 @@ Class specializes in the Stength & Defence stats with light specialization in He
 | --------------- | --------------------------------------------------------------------------- | ---- |
 | Focus           | Next turn gain +1 action.                                                   |  1   |
 | Wind Slash      | Hit the 3 tiles in front of the user.                                       |  2   |
-| Whirlwind       | Hit all adjacent tiles.                                                     |  2   |
+| Whirlwind       | Hit all adjacent tiles. All targets recieve 1 knockback.                    |  2   |
 | Berserk         | This turn half your defence to double your strength.                        |  2   |
 | Strength Within | Gain +5 strength this turn.  Lose 1 strength per turn indefinitely for the remainder of the battle.  Original stat is restored at the end of the battle.                                             |  3   |||
 
@@ -63,8 +63,11 @@ Class specializes in the Stamina & Speed stats with light specialization in Magi
 
 | Skills        | Effect                                                                      | Cost |
 | ------------- | --------------------------------------------------------------------------- | ---- |
-|           |                      |  1   |
-
+| Focus         | Next turn gain +1 action.                                                   |  1   |
+| Double shot   | This turn this unit's next bow attack happens twice.                        |  1   |
+| Scope         | This turn this unit's bow attacks have double range.                        |  2   |
+| Kneecap       | Half the defence of an enemy unit for the rest of the turn.                 |  3   |
+| ???           | ???                                                                         |  3   |
 
 ## **Mage**
 Class specializes in the Magic & Magic Defence stats with light specialization in Health Points.
