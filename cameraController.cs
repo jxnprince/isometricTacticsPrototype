@@ -4,11 +4,10 @@ using UnityEngine;
 
 /*
 TO DO
-[] Add camera focus on objects on click
-    [] Fix rotation to focus on center of playfield.
-[] Fix Mouse drag
+=====
+[] Fix rotation
 [] Refactor camera pan limits with Mathf.clamp()
-[] Fine tune camera motion rate and easing
+[] Add camera focus
 */
 
 public class cameraController : MonoBehaviour
