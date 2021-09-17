@@ -63,7 +63,7 @@ Class specializes in the Stamina & Speed stats with light specialization in Magi
 
 | Skills        | Effect                                                                      | Cost |
 | ------------- | --------------------------------------------------------------------------- | ---- |
-| Magic Shot    | Fire magic arrow.                                                           |  1   |
+| Magical Shot  | Fire magic arrow.                                                           |  1   |
 | Focus         | Next turn gain +1 action.                                                   |  1   |
 | Double shot   | This turn this unit's next bow attack happens twice.                        |  1   |
 | Scope         | This turn this unit's bow attacks have double range.                        |  2   |
@@ -73,18 +73,21 @@ Class specializes in the Stamina & Speed stats with light specialization in Magi
 Class specializes in the Magic & Magic Defence stats with light specialization in Health Points.
 | Stat                | Possible L1 stats |
 | ------------------- | ----------------  |
-| **Health Points**   | [9, 10, 12, 13 ]  |
-| Stamina             | [7,  8,  9,  11]  |
-| Speed               | [8,  9, 11, 12 ]  |
-| Strength            | [5,  6,  7,  8 ]  |
-| Defence             | [4,  5,  6,  7 ]  |
+| **Health Points**   | [9,  9,  10, 12]  |
+| Stamina             | [7,  8,  9, 11 ]  |
+| Speed               | [8,  8,  8, 10 ]  |
+| Strength            | [5,  5,  5,  7 ]  |
+| Defence             | [4,  5,  5,  6 ]  |
 | ***Magic***         | [12, 13, 14, 18]  |
 | ***Magic Defence*** | [11, 13, 14, 18]  |
 
 | Skills        | Effect                                                                      | Cost |
 | ------------- | --------------------------------------------------------------------------- | ---- |
-| Channel     |                      |  1   |
-
+| Heal          | Heal an adjacent unit for ~30% of their maximum health.                     |  1   |
+| Magical Sword | Hit the 3 perpendicular tiles in front of user.                             |  1   |
+| Magical Shot  | Fire magic arrow.                                                           |  1   |
+| Rock Body     | Gain +2 Defence for each spell this unit has cast this battle.              |  2   |
+| Mutation      | Gain +10 Magic this turn.  Lose 2 magic per turnindefinitely for the remainder of the battle.  Original stat is restored at the end of the battle.                                                                                       |  3   |
 
 ## **Cleric**
 Class heavy specialization in the Magic stat with light specialization in Magic Defence.
@@ -93,9 +96,9 @@ Class heavy specialization in the Magic stat with light specialization in Magic 
 | Health Points     | [8,  9, 10, 12 ] |
 | Stamina           | [4,  4,  6,  8 ] |
 | Speed             | [6,  7,  8,  10] |
-| Strength          | [3,  4,  5,  6 ] |
+| Strength          | [3,  4,  4,  6 ] |
 | Defence           | [4,  5,  6,  7 ] |
-| ***Magic***       | [16, 17, 18, 19] |
+| ***Magic***       | [13, 13, 14, 19] |
 | **Magic Defence** | [7,  8,  9,  11] |
 
 | Skills        | Effect                                                                      | Cost |
@@ -104,7 +107,9 @@ Class heavy specialization in the Magic stat with light specialization in Magic 
 | Swap          | Swap the positions of one friendly and one enemy unit.                      |  2   |
 | Great Heal    | Heal units up to 2 tiles away for ~60% of their maximum health.             |  2   |
 | Double cast   | Activate ability that makes the first spell cast each turn is casted twice for the rest of the battle.                                                                                                                                         |  3   |
-| Mutation      | Gain +5 Magic this turn.  Lose 1 magic per turnindefinitely for the remainder of the battle.  Original stat is restored at the end of the battle.                                                                                               |  3   |
+| Magic Armor   | Gain +7 Defence and +7 Magic Defence  this turn.  Lose 2 Defence & Magic Defence per turn indefinitely for the remainder of the battle.  Original stats are restored at the end of the battle.                                                  |  3   |
+
+
 
 ### **Future Classes template**
 Class specializes in the  &  stats with light specialization in .
@@ -120,6 +125,4 @@ Class specializes in the  &  stats with light specialization in .
 
 | Skills        | Effect                                                  | Cost |
 | ------------- | ------------------------------------------------------- | ---- |
-|               |  |     |
-|               |  |     |
 |               |  |     |
