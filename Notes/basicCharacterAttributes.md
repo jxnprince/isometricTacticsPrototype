@@ -27,6 +27,23 @@ Stat governing the effectiveness of various magical spells.  Maximum stat value 
 #### **Magic Defence**
 Stat governing damage reduction of of incoming magical attacks.  Maximum stat value is 99.
 
+#Character Actions
+##Move
+  Moves a unit a number of spaces based on their speed stat.  The move command consumes 1 stamina.
+ | Speed Stat | No. Of spaces |
+ | ---------- | ------------- |
+ |      1     |       2       |
+ |      5     |       3       |
+ |     10     |       4       |
+ |     25     |       5       |
+ |     40     |       6       |
+ |     55     |       7       |
+ |     70     |       8       | 
+ |     85     |       9       |
+ |     99     |      10       |
+##Attack
+##Defend
+##Skills
 
 # Character Classes
 ## **Fighter**
