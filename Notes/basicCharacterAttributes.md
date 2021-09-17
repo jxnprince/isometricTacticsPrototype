@@ -28,7 +28,7 @@ Stat governing the effectiveness of various magical spells.  Maximum stat value 
 Stat governing damage reduction of of incoming magical attacks.  Maximum stat value is 99.
 
 ### Level
-Metric indicative of overall unit power.  A unit gains experience upon killing enemies.  All units gain experience upon winning a battle.  After an exponential threshold is crossed, the player's level increases by one.  The unit gains +2 levels in it's major stat (+4 Magic for Cleric) and 1 level in it's minor stats. 
+Metric indicative of overall unit power.  A unit gains experience upon killing enemies.  All units gain experience upon winning a battle.  After an exponential threshold is crossed, the player's level increases by one.  The unit gains +2 levels in it's major stat and 1 level in it's minor stats (+4 Magic for Cleric).   
 
 | New Game Level  | Max Level |
 | --------------- | --------- |
@@ -63,7 +63,7 @@ Metric indicative of overall unit power.  A unit gains experience upon killing e
 | Weapon Type | Attack action |                                         Effect                                            |
 | ----------- | --------------| ----------------------------------------------------------------------------------------- |
 | Sword       | Attack        | Damage the unit in the space infront of the user using strength stat causes 1 knock back. |
-| Bow         | Shot          | Damage a unit in within a radius of 4 spaces of the user using strength stat.             |
+| Bow         | Shot          | Damage a unit in within a radius of 4 spaces of the user using speed stat.                |
 | Staff       | Magic Burst   | Damage all units in within 2 spaces in front of the user using magic stat.                |
 
 ## Defend
@@ -97,11 +97,11 @@ Class specializes in the Speed stat with light specialization in Magic & Stamina
 | Stat          | Possible L1 stats|
 | ------------- | ---------------- |
 | Health Points | [8,  8,  9,  10] |
-| **Stamina**   | [20, 24, 25, 25] |
-| ***Speed***   | [12, 12, 15, 18] |
+| **[m]Stamina**| [20, 24, 25, 25] |
+| ***[M]Speed***| [12, 12, 15, 18] |
 | Strength      | [6,  6,  7,  8 ] |
 | Defence       | [6,  6,  7,  9 ] |
-| **Magic**     | [10, 11, 11, 13] |
+| **[m]Magic**  | [10, 11, 11, 13] |
 | Magic Defence | [5,  5,  5, 7  ] |
 
 | Skills        | Effect                                                                      | Cost |
@@ -114,15 +114,15 @@ Class specializes in the Speed stat with light specialization in Magic & Stamina
 
 ## **Mage**
 Class specializes in the Magic Defence stat with light specialization in Health Points & Magic.
-| Stat                | Possible L1 stats |
-| ------------------- | ----------------  |
-| **Health Points**   | [9,  9,  10, 12]  |
-| Stamina             | [7,  8,  9, 11 ]  |
-| Speed               | [6,  7,  8,  10]  |
-| Strength            | [5,  5,  5,  7 ]  |
-| Defence             | [4,  5,  5,  6 ]  |
-| **Magic**           | [12, 12, 13, 14]  |
-| ***Magic Defence*** | [13, 14, 14, 18]  |
+| Stat                  | Possible L1 stats |
+| --------------------- | ----------------  |
+| **[m]Health Points**  | [9,  9,  10, 12]  |
+| Stamina               | [7,  8,  9, 11 ]  |
+| Speed                 | [6,  7,  8,  10]  |
+| Strength              | [5,  5,  5,  7 ]  |
+| Defence               | [4,  5,  5,  6 ]  |
+| **[m]Magic**          | [12, 12, 13, 14]  |
+|***[M]Magic Defence*** | [13, 14, 14, 18]  |
 
 | Skills        | Effect                                                                      | Cost |
 | ------------- | --------------------------------------------------------------------------- | ---- |
@@ -141,7 +141,7 @@ Class heavy specialization in the Magic stat.
 | Speed             | [6,  7,  8,  10] |
 | Strength          | [3,  4,  4,  6 ] |
 | Defence           | [4,  5,  6,  7 ] |
-| ***Magic***       | [13, 13, 14, 19] |
+| [M]***Magic***    | [13, 13, 14, 19] |
 | Magic Defence     | [7,  7,  8,  10] |
 
 | Skills        | Effect                                                                      | Cost |
