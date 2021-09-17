@@ -33,41 +33,41 @@ Stat governing damage reduction of of incoming magical attacks.  Maximum stat va
 Class specializes in the Stength & Defence stats with light specialization in Health Points.
 | Stat              | Possible L1 stats |
 | ----------------- | ----------------- |
-| **Health Points** | [10, 11, 13, 14]  |
-| Stamina           | [7,  8,  9,  11]  |
-| Speed             | [7,  8,  9,  11]  |
-| ***Strength***    | [11, 12, 15, 18]  |
-| ***Defence***     | [11, 12, 15, 18]  |
-| Magic             | [5,  6,  7,  8 ]  |
-| Magic Defence     | [4,  5,  6,  7 ]  |
+| **Health Points** | [10, 11, 11, 13]  |
+| Stamina           | [7,  7,  9,  11]  |
+| Speed             | [8,  8,  9,  11]  |
+| ***Strength***    | [12, 15, 15, 18]  |
+| ***Defence***     | [12, 15, 15, 18]  |
+| Magic             | [5,  5,  5,  7 ]  |
+| Magic Defence     | [4,  4,  5,  6 ]  |
 
 | Skills          | Effect                                                                      | Cost |
 | --------------- | --------------------------------------------------------------------------- | ---- |
 | Focus           | Next turn gain +1 action.                                                   |  1   |
-| Wind Slash      | Hit the 3 tiles in front of the user.                                       |  2   |
+| Wind Slash      | Hit the 2 tiles in front of the user.                                       |  1   |
 | Whirlwind       | Hit all adjacent tiles. All targets recieve 1 knockback.                    |  2   |
-| Berserk         | This turn half your defence to double your strength.                        |  2   |
-| Strength Within | Gain +5 strength this turn.  Lose 1 strength per turn indefinitely for the remainder of the battle.  Original stat is restored at the end of the battle.                                             |  3   |||
+| Berserk         | This turn, half your defence to double your strength.                       |  2   |
+| Strength Within | Gain +5 strength this turn.  Lose 1 strength per turn indefinitely for the remainder of the battle.  Original stat is restored at the end of the battle.                                                                                     |  3   |
 
 ## **Rogue / Archer**
 Class specializes in the Stamina & Speed stats with light specialization in Magic.
 | Stat          | Possible L1 stats|
 | ------------- | ---------------- |
-| Health Points | [8,  9, 10, 12 ] |
+| Health Points | [8,  8,  9,  10] |
 | ***Stamina*** | [20, 24, 25, 25] |
-| ***Speed***   | [10, 12, 15, 18] |
-| Strength      | [6,  7,  8,  9 ] |
-| Defence       | [6,  7,  8,  9 ] |
-| **Magic**     | [9, 10, 11, 12 ] |
-| Magic Defence | [7,  8,  9, 11 ] |
+| ***Speed***   | [12, 12, 15, 18] |
+| Strength      | [6,  6,  7,  8 ] |
+| Defence       | [6,  6,  7,  9 ] |
+| **Magic**     | [10, 11, 11, 13] |
+| Magic Defence | [5,  5,  5, 7  ] |
 
 | Skills        | Effect                                                                      | Cost |
 | ------------- | --------------------------------------------------------------------------- | ---- |
+| Magic Shot    | Fire magic arrow.                                                           |  1   |
 | Focus         | Next turn gain +1 action.                                                   |  1   |
 | Double shot   | This turn this unit's next bow attack happens twice.                        |  1   |
 | Scope         | This turn this unit's bow attacks have double range.                        |  2   |
-| Kneecap       | Half the defence of an enemy unit for the rest of the turn.                 |  3   |
-| ???           | ???                                                                         |  3   |
+| Kneecap       | Half the defence of an enemy unit for the rest of their turn.               |  3   |
 
 ## **Mage**
 Class specializes in the Magic & Magic Defence stats with light specialization in Health Points.
@@ -83,7 +83,7 @@ Class specializes in the Magic & Magic Defence stats with light specialization i
 
 | Skills        | Effect                                                                      | Cost |
 | ------------- | --------------------------------------------------------------------------- | ---- |
-|           |                      |  1   |
+| Channel     |                      |  1   |
 
 
 ## **Cleric**
@@ -103,8 +103,8 @@ Class heavy specialization in the Magic stat with light specialization in Magic 
 | Heal          | Heal an adjacent unit for ~30% of their maximum health.                     |  1   |
 | Swap          | Swap the positions of one friendly and one enemy unit.                      |  2   |
 | Great Heal    | Heal units up to 2 tiles away for ~60% of their maximum health.             |  2   |
-| Double cast   | Activate ability that makes the first spell cast each turn is casted twice. |  3   |
-| Mutation      | Gain +5 Magic this turn.  Lose 1 magic per turnindefinitely for the remainder of the battle.  Original stat is restored at the end of the battle.                                                    |  3   |||
+| Double cast   | Activate ability that makes the first spell cast each turn is casted twice for the rest of the battle.                                                                                                                                         |  3   |
+| Mutation      | Gain +5 Magic this turn.  Lose 1 magic per turnindefinitely for the remainder of the battle.  Original stat is restored at the end of the battle.                                                                                               |  3   |
 
 ### **Future Classes template**
 Class specializes in the  &  stats with light specialization in .
