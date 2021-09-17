@@ -13,7 +13,7 @@
 | Scope           | This turn this unit's bow attacks have double range.                                                              |  2   |
 | Whirlwind       | Hit all adjacent tiles. All targets recieve 1 knockback.                                                          |  2   |
 | Berserk         | This turn, half your defence to double your strength.                                                             |  2   |
-| Rock Body     | Gain +2 Defence for each spell this unit has cast this battle & prevents knockback for the rest of the battle Can only be cast once per battle.
+| Rock Body       | Gain +2 Defence for each spell this unit has cast this battle & prevents knockback for the rest of the battle Can only be cast once per battle.
                                                                                                                                       |  2   |
 | Kneecap         | Half the defence of an enemy unit for the rest of their turn.                                                     |  3   |
 | Double cast     | Activate ability that makes the first spell cast each turn is casted twice for the rest of the battle.                                                                                                                                         
