@@ -1,9 +1,9 @@
 # Character Stats
 
-#### **Health Points**
+### **Health Points**
 When a character's health points reach zero, the character is removed from the battle's turn order. If they are not restored by an item or resurrection spell by the end of a battle, they are then removed from the run permanently.  Maximum stat value is 99.
 
-#### **Stamina**
+### **Stamina**
 Stat governing the number of actions a player can take in a turn.  After use stamina is depleted until it is said character's turn again. Maximum stat value is 99.
 | Stamina level | Number of actions|
 | ------------- | ---------------- |
@@ -12,24 +12,24 @@ Stat governing the number of actions a player can take in a turn.  After use sta
 | 50            | 4                |
 | 99            | 5                |
 
-#### **Speed**
+### **Speed**
 Stat governing when a character will appear in the turn order.  Higher speed characters appear higher in the turn order and can, with certain abilities, gain additional points of stamina every turn. Maximum stat value is 99.
 
-#### **Strength**
+### **Strength**
 Stat governing the damage a physical attack will do to an enemy character.  Maximum stat value is 99.
 
-#### **Defence**
+### **Defence**
 Stat governing damage reduction of of incoming physical attacks.  Maximum stat value is 99.
 
-#### **Magic**
+### **Magic**
 Stat governing the effectiveness of various magical spells.  Maximum stat value is 99.
 
-#### **Magic Defence**
+### **Magic Defence**
 Stat governing damage reduction of of incoming magical attacks.  Maximum stat value is 99.
 
-#Character Actions
-##Move
-  Moves a unit a number of spaces based on their speed stat.  The move command consumes 1 stamina.
+# Character Actions
+## Move
+  Moves a unit a number of spaces based on their speed stat.  The move action consumes 1 stamina.
  | Speed Stat | No. Of spaces |
  | ---------- | ------------- |
  |      1     |       2       |
@@ -41,9 +41,19 @@ Stat governing damage reduction of of incoming magical attacks.  Maximum stat va
  |     70     |       8       | 
  |     85     |       9       |
  |     99     |      10       |
-##Attack
-##Defend
-##Skills
+ 
+## Attack
+  Uses Attack stat times weapon's multiplier to deal damage to an enemy unit.  The attack action consumes 1 stamina.
+| Weapon Type | Attack action |                                         Effect                                            |
+| ----------- | --------------| ----------------------------------------------------------------------------------------- |
+| Sword       | Attack        | Damage the unit in the space infront of the user using strength stat causes 1 knock back. |
+| Bow         | Shot          | Damage a unit in within a radius of 4 spaces of the user using strength stat.             |
+| Staff       | Magic Burst   | Damage all units in within 2 spaces in front of the user using magic stat.                |
+
+## Defend
+  Uses Defence and Magic Defence stat to reduce the incoming damage.  The Defend action consumes 1 stamina.
+## Skills
+  Uses one of the skills posessed by the user.  Each skill action consumes a unqique quantity of stamina.  Skills are learned through weapon experience.  A unit can equip up to 4 skills at once.  Any unit can equip a mastered skill regardless of currently equipped class.  The currently equipped weapon's skill must be equipped 
 
 # Character Classes
 ## **Fighter**
@@ -103,7 +113,7 @@ Class specializes in the Magic & Magic Defence stats with light specialization i
 | Heal          | Heal an adjacent unit for ~30% of their maximum health.                     |  1   |
 | Magical Sword | Hit the 3 perpendicular tiles in front of user.                             |  1   |
 | Magical Shot  | Fire magic arrow.                                                           |  1   |
-| Rock Body     | Gain +2 Defence for each spell this unit has cast this battle.              |  2   |
+| Rock Body     | Gain +2 Defence for each spell this unit has cast this battle.  Prevents knockback. Can only be cast once per battle.                                                                                                                           |  2   |
 | Mutation      | Gain +10 Magic this turn.  Lose 2 magic per turnindefinitely for the remainder of the battle.  Original stat is restored at the end of the battle.                                                                                       |  3   |
 
 ## **Cleric**
