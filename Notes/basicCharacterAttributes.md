@@ -27,6 +27,22 @@ Stat governing the effectiveness of various magical spells.  Maximum stat value 
 ### **Magic Defence**
 Stat governing damage reduction of of incoming magical attacks.  Maximum stat value is 99.
 
+### Level
+Metric indicative of overall unit power.  A unit gains experience upon killing enemies.  All units gain experience upon winning a battle.  After an exponential threshold is crossed, the player's level increases by one.  The unit gains +2 levels in it's major stat (+4 Magic for Cleric) and 1 level in it's minor stats. 
+
+| New Game Level  | Max Level |
+| --------------- | --------- |
+|        1        |    99     |
+|        2        |    199    |
+|        3        |    299    |
+|        4        |    399    |
+|        5        |    499    |
+|        6        |    599    |
+|        7        |    699    |
+|        8        |    799    |
+|        9        |    899    |
+|        10       |    999    |
+
 # Character Actions
 ## Move
   Moves a unit a number of spaces based on their speed stat.  The move action consumes 1 stamina.
@@ -57,14 +73,14 @@ Stat governing damage reduction of of incoming magical attacks.  Maximum stat va
 
 # Character Classes
 ## **Fighter**
-Class specializes in the Stength & Defence stats with light specialization in Health Points.
+Class specializes in the Stength stat with light specialization in Health Points & Defence.
 | Stat              | Possible L1 stats |
 | ----------------- | ----------------- |
 | **Health Points** | [10, 11, 11, 13]  |
 | Stamina           | [7,  7,  9,  11]  |
 | Speed             | [8,  8,  9,  11]  |
 | ***Strength***    | [12, 15, 15, 18]  |
-| ***Defence***     | [12, 15, 15, 18]  |
+| **Defence**       | [10, 11, 11, 13]  |
 | Magic             | [5,  5,  5,  7 ]  |
 | Magic Defence     | [4,  4,  5,  6 ]  |
 
@@ -77,11 +93,11 @@ Class specializes in the Stength & Defence stats with light specialization in He
 | Strength Within | Gain +5 strength this turn.  Lose 1 strength per turn indefinitely for the remainder of the battle.  Original stat is restored at the end of the battle.                                                                                     |  3   |
 
 ## **Rogue / Archer**
-Class specializes in the Stamina & Speed stats with light specialization in Magic.
+Class specializes in the Speed stat with light specialization in Magic & Stamina.
 | Stat          | Possible L1 stats|
 | ------------- | ---------------- |
 | Health Points | [8,  8,  9,  10] |
-| ***Stamina*** | [20, 24, 25, 25] |
+| **Stamina**   | [20, 24, 25, 25] |
 | ***Speed***   | [12, 12, 15, 18] |
 | Strength      | [6,  6,  7,  8 ] |
 | Defence       | [6,  6,  7,  9 ] |
@@ -97,27 +113,27 @@ Class specializes in the Stamina & Speed stats with light specialization in Magi
 | Kneecap       | Half the defence of an enemy unit for the rest of their turn.               |  3   |
 
 ## **Mage**
-Class specializes in the Magic & Magic Defence stats with light specialization in Health Points.
+Class specializes in the Magic Defence stat with light specialization in Health Points & Magic.
 | Stat                | Possible L1 stats |
 | ------------------- | ----------------  |
 | **Health Points**   | [9,  9,  10, 12]  |
 | Stamina             | [7,  8,  9, 11 ]  |
-| Speed               | [8,  8,  8, 10 ]  |
+| Speed               | [6,  7,  8,  10]  |
 | Strength            | [5,  5,  5,  7 ]  |
 | Defence             | [4,  5,  5,  6 ]  |
-| ***Magic***         | [12, 13, 14, 18]  |
-| ***Magic Defence*** | [11, 13, 14, 18]  |
+| **Magic**           | [12, 12, 13, 14]  |
+| ***Magic Defence*** | [13, 14, 14, 18]  |
 
 | Skills        | Effect                                                                      | Cost |
 | ------------- | --------------------------------------------------------------------------- | ---- |
 | Heal          | Heal an adjacent unit for ~30% of their maximum health.                     |  1   |
 | Magical Sword | Hit the 3 perpendicular tiles in front of user.                             |  1   |
 | Magical Shot  | Fire magic arrow.                                                           |  1   |
-| Rock Body     | Gain +2 Defence for each spell this unit has cast this battle.  Prevents knockback. Can only be cast once per battle.                                                                                                                           |  2   |
+| Rock Body     | Gain +2 Defence for each spell this unit has cast this battle & prevents knockback for the rest of the battle Can only be cast once per battle.                                                                                                 |  2   |
 | Mutation      | Gain +10 Magic this turn.  Lose 2 magic per turnindefinitely for the remainder of the battle.  Original stat is restored at the end of the battle.                                                                                       |  3   |
 
 ## **Cleric**
-Class heavy specialization in the Magic stat with light specialization in Magic Defence.
+Class heavy specialization in the Magic stat.
 | Stat              | Possible L1 stats|
 | ----------------- | ---------------- |
 | Health Points     | [8,  9, 10, 12 ] |
@@ -126,7 +142,7 @@ Class heavy specialization in the Magic stat with light specialization in Magic 
 | Strength          | [3,  4,  4,  6 ] |
 | Defence           | [4,  5,  6,  7 ] |
 | ***Magic***       | [13, 13, 14, 19] |
-| **Magic Defence** | [7,  8,  9,  11] |
+| Magic Defence     | [7,  7,  8,  10] |
 
 | Skills        | Effect                                                                      | Cost |
 | ------------- | --------------------------------------------------------------------------- | ---- |
