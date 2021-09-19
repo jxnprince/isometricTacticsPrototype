@@ -1,23 +1,23 @@
 # Base Weapons
 | Weapon              | Scaling           | Class              | Skills          | EXP to Master |
 | --------------------| ----------------- | ------------------ | --------------- | ------------- |
-| Short Sword         | D - STR / D - SPD | Figher / Rogue     | Focus           | 
-| Aeodonis Blade      | C - STR / D - SPD | Fighter            | Wind Slash      |
-| Rock Gauntlets      | B - STR           | Figher             | Whirlwind       |
-| Crystal Fists       | B - STR           | Fighter            | Berserk         |
-| Great Sword         | A - STR           | Figher             | Strength Within |
-| Mystic Bow          | D - MAG / D - SPD | Rogue / Mage       | Magical Shot    |
-| Shortbow            | C - SPD / D - STR | Rogue / Fighter    | Double Shot     |
-| Sniper Bow          | B - SPD           | Rogue              | Scope           |
-| Hawk Bow            | A - SPD           | Rogue              | Kneecap         |
-| Oak Staff           | C - MAG           | Mage / Cleric      | Heal            |
-| Battle Staff        | B - MAG           | Mage               | Magical Sword   |
-| Crystal Staff       | B - MAG           | Mage               | Rock Body       |
-| Necromancer's Staff | A - MAG           | Mage               | Mutation        |
-| Crystal Orb         | B - MAG           | Cleric             | Swap            |
-| Holy Relic          | B - MAG           | Cleric             | Great Heal      |
-| Catalyst            | A - MAG           | Cleric             | Double Cast     |
-| Talisman            | A - MAG           | Cleric             | Magic Armor     |
+| Short Sword         | D - STR / D - SPD | Figher / Rogue     | Focus           |               |
+| Aeodonis Blade      | C - STR / D - SPD | Fighter            | Wind Slash      |               |
+| Rock Gauntlets      | B - STR           | Figher             | Whirlwind       |               |
+| Crystal Fists       | B - STR           | Fighter            | Berserk         |               |
+| Great Sword         | A - STR           | Figher             |Strength Within  |               |
+| Mystic Bow          | D - MAG / D - SPD | Rogue / Mage       | Magical Shot    |               |
+| Shortbow            | C - SPD / D - STR | Rogue / Fighter    | Double Shot     |               |
+| Sniper Bow          | B - SPD           | Rogue              | Scope           |               |
+| Hawk Bow            | A - SPD           | Rogue              | Kneecap         |               |
+| Oak Staff           | C - MAG           | Mage / Cleric      | Heal            |               |
+| Battle Staff        | B - MAG           | Mage               | Magical Sword   |               |
+| Crystal Staff       | B - MAG           | Mage               | Rock Body       |               |
+| Necromancer's Staff | A - MAG           | Mage               | Mutation        |               |
+| Crystal Orb         | B - MAG           | Cleric             | Swap            |               |
+| Holy Relic          | B - MAG           | Cleric             | Great Heal      |               |
+| Catalyst            | A - MAG           | Cleric             | Double Cast     |               |
+| Talisman            | A - MAG           | Cleric             | Magic Armor     |               |
 
 # Weapon Scaling
 | Degree | Effect                |
@@ -45,5 +45,5 @@
 | Kneecap         | Half the defence of an enemy unit for the rest of their turn.                                                     |  3   | Cleric          |
 | Double cast     | Activate ability that makes the first spell cast each turn is casted twice for the rest of the battle.            |  3   | Cleric          |
 | Magic Armor     | Gain +7 Defence and +7 Magic Defence  this turn.  Lose 2 Defence & Magic Defence per turn indefinitely for the remainder of the battle.  Original stats are restored at the end of the battle.                                                                                 |  3   | Cleric          |
-| Mutation       | Gain +10 Magic this turn.  Lose 2 magic per turnindefinitely for the remainder of the battle.  Original stat is restored at the end of the  battle.                                                                                                                               |  3   | Mage            |
-| Strength Within | Gain +5 strength this turn.  Lose 1 strength per turn indefinitely for the remainder of the battle.  Original stat is restored at the end of the battle.                                                                                                                           |  3   | Fighter         |
+| Mutation        | Gain +10 Magic this turn.  Lose 2 magic per turnindefinitely for the remainder of the battle.  Original stat is restored at the end of the  battle.                                                                                                                               |  3   | Mage            |
+| Strength Within | Gain +5 strength this turn.  Lose 1 strength per turn indefinitely for the remainder of the battle.  Original stat is restored at the end of the battle.                                                                                                                               |  3   | Fighter         |
