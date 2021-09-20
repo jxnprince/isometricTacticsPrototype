@@ -1,23 +1,23 @@
 # Base Weapons
 | Weapon              | Scaling           | Class              | Skills          | EXP to Master |
 | --------------------| ----------------- | ------------------ | --------------- | ------------- |
-| Short Sword         | D - STR / D - SPD | Figher / Rogue     | Focus           |               |
-| Aeodonis Blade      | C - STR / D - SPD | Fighter            | Wind Slash      |               |
-| Rock Gauntlets      | B - STR           | Figher             | Whirlwind       |               |
-| Crystal Fists       | B - STR           | Fighter            | Berserk         |               |
-| Great Sword         | A - STR           | Figher             |Strength Within  |               |
-| Mystic Bow          | D - MAG / D - SPD | Rogue / Mage       | Magical Shot    |               |
-| Shortbow            | C - SPD / D - STR | Rogue / Fighter    | Double Shot     |               |
-| Sniper Bow          | B - SPD           | Rogue              | Scope           |               |
-| Hawk Bow            | A - SPD           | Rogue              | Kneecap         |               |
-| Oak Staff           | C - MAG           | Mage / Cleric      | Heal            |               |
-| Battle Staff        | B - MAG           | Mage               | Magical Sword   |               |
-| Crystal Staff       | B - MAG           | Mage               | Rock Body       |               |
-| Necromancer's Staff | A - MAG           | Mage               | Mutation        |               |
-| Crystal Orb         | B - MAG           | Cleric             | Swap            |               |
-| Holy Relic          | B - MAG           | Cleric             | Great Heal      |               |
-| Catalyst            | A - MAG           | Cleric             | Double Cast     |               |
-| Talisman            | A - MAG           | Cleric             | Magic Armor     |               |
+| Short Sword         | D - STR / D - SPD | Figher / Rogue     | Focus           ||
+| Aeodonis Blade      | C - STR / D - SPD | Fighter            | Wind Slash      ||
+| Rock Gauntlets      | B - STR           | Figher             | Whirlwind       ||
+| Crystal Fists       | B - STR           | Fighter            | Berserk         ||
+| Great Sword         | A - STR           | Figher             |Strength Within  ||
+| Mystic Bow          | D - MAG / D - SPD | Rogue / Mage       | Magical Shot    ||
+| Shortbow            | C - SPD / D - STR | Rogue / Fighter    | Double Shot     ||
+| Sniper Bow          | B - SPD           | Rogue              | Scope           ||
+| Hawk Bow            | A - SPD           | Rogue              | Kneecap         ||
+| Oak Staff           | C - MAG           | Mage / Cleric      | Heal            ||
+| Battle Staff        | B - MAG           | Mage               | Magical Sword   ||
+| Crystal Staff       | B - MAG           | Mage               | Rock Body       ||
+| Necromancer's Staff | A - MAG           | Mage               | Mutation        ||
+| Crystal Orb         | B - MAG           | Cleric             | Swap            ||
+| Holy Relic          | B - MAG           | Cleric             | Great Heal      ||
+| Catalyst            | A - MAG           | Cleric             | Double Cast     ||
+| Talisman            | A - MAG           | Cleric             | Magic Armor     ||
 
 # Weapon Scaling
 | Degree | Effect                |
