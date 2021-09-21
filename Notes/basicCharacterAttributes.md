@@ -71,15 +71,15 @@ Metric indicative of overall unit power.  A unit gains experience upon killing e
 # Character Classes
 ## **Fighter**
 Class specializes in the Stength stat with light specialization in Health Points & Defence.
-| Stat              | Possible L1 stats |
-| ----------------- | ----------------- |
-| **Health Points** | [10, 11, 11, 13]  |
-| Stamina           | [7,  7,  9,  11]  |
-| Speed             | [8,  8,  9,  11]  |
-| ***Strength***    | [12, 15, 15, 18]  |
-| **Defence**       | [10, 11, 11, 13]  |
-| Magic             | [5,  5,  5,  7 ]  |
-| Magic Defence     | [4,  4,  5,  6 ]  |
+| Stat              | Possible L1 stats | Avg   |
+| ----------------- | ----------------- | ----- |
+| **Health Points** | [13, 13, 14, 15]  | 13.75 |
+| Stamina           | [8,  10,  10, 11] |  9.75 |
+| Speed             | [8,  8,  9,  11]  |  9.00 |
+| ***Strength***    | [12, 15, 15, 18]  | 15.00 |
+| **Defence**       | [10, 11, 11, 13]  | 11.25 |
+| Magic             | [5,  5,  5,  7 ]  |  5.50 |
+| Magic Defence     | [4,  4,  5,  6 ]  |  4.75 |
 
 | Skills          | Effect                                                                      | Cost |
 | --------------- | --------------------------------------------------------------------------- | ---- |
@@ -91,15 +91,15 @@ Class specializes in the Stength stat with light specialization in Health Points
 
 ## **Rogue / Archer**
 Class specializes in the Speed stat with light specialization in Magic & Stamina.
-| Stat          | Possible L1 stats|
-| ------------- | ---------------- |
-| Health Points | [8,  8,  9,  10] |
-| **[m]Stamina**| [20, 24, 25, 25] |
-| ***[M]Speed***| [12, 12, 15, 18] |
-| Strength      | [6,  6,  7,  8 ] |
-| Defence       | [6,  6,  7,  9 ] |
-| **[m]Magic**  | [10, 11, 11, 13] |
-| Magic Defence | [5,  5,  5, 7  ] |
+| Stat          | Possible L1 stats| Avg   |
+| ------------- | ---------------- | ----- |
+| Health Points | [9,  9,  10, 11] |  9.75 |
+| **[m]Stamina**| [20, 24, 25, 25] | 23.50 |
+| ***[M]Speed***| [12, 12, 15, 18] | 14.25 |
+| Strength      | [6,  6,  7,  8 ] |  6.75 |
+| Defence       | [6,  6,  7,  9 ] |  7.00 |
+| **[m]Magic**  | [10, 11, 11, 13] | 11.25 |
+| Magic Defence | [5,  5,  5, 7  ] |  5.50 |
 
 | Skills        | Effect                                                                      | Cost |
 | ------------- | --------------------------------------------------------------------------- | ---- |
@@ -108,18 +108,18 @@ Class specializes in the Speed stat with light specialization in Magic & Stamina
 | Double shot   | This turn this unit's next bow attack happens twice.                        |  1   |
 | Scope         | This turn this unit's bow attacks have double range.                        |  2   |
 | Kneecap       | Half the defence of an enemy unit for the rest of their turn.               |  3   |
-
+7
 ## **Mage**
 Class specializes in the Magic Defence stat with light specialization in Health Points & Magic.
-| Stat                  | Possible L1 stats |
-| --------------------- | ----------------  |
-| **[m]Health Points**  | [9,  9,  10, 12]  |
-| Stamina               | [7,  8,  9, 11 ]  |
-| Speed                 | [6,  7,  8,  10]  |
-| Strength              | [5,  5,  5,  7 ]  |
-| Defence               | [4,  5,  5,  6 ]  |
-| **[m]Magic**          | [12, 12, 13, 14]  |
-|***[M]Magic Defence*** | [13, 14, 14, 18]  |
+| Stat                  | Possible L1 stats | Avg   |
+| --------------------- | ----------------  | ----- |
+| **[m]Health Points**  | [8,  8,  9, 10]   |  8.75 |
+| Stamina               | [7,  7,  8, 10 ]  |  8.00 |
+| Speed                 | [6,  7,  8,  10]  |  7.75 |
+| Strength              | [5,  5,  5,  7 ]  |  5.50 |
+| Defence               | [4,  5,  5,  6 ]  |  5.00 |
+| **[m]Magic**          | [12, 12, 13, 14]  | 12.75 |
+|***[M]Magic Defence*** | [13, 14, 14, 18]  | 14.75 |
 
 | Skills        | Effect                                                                      | Cost |
 | ------------- | --------------------------------------------------------------------------- | ---- |
@@ -131,15 +131,15 @@ Class specializes in the Magic Defence stat with light specialization in Health 
 
 ## **Cleric**
 Class heavy specialization in the Magic stat.
-| Stat              | Possible L1 stats|
-| ----------------- | ---------------- |
-| Health Points     | [8,  9, 10, 12 ] |
-| Stamina           | [4,  4,  6,  8 ] |
-| Speed             | [6,  7,  8,  10] |
-| Strength          | [3,  4,  4,  6 ] |
-| Defence           | [4,  5,  6,  7 ] |
-| [M]***Magic***    | [13, 13, 14, 19] |
-| Magic Defence     | [7,  7,  8,  10] |
+| Stat              | Possible L1 stats| Avg  |
+| ----------------- | ---------------- | ---- |
+| Health Points     | [8,  8,  8,  9 ] |  8.25 |
+| Stamina           | [4,  4,  6,  7 ] |  5.25 |
+| Speed             | [6,  7,  8,  10] |  7.75 |
+| Strength          | [3,  4,  4,  6 ] |  8.50 |
+| Defence           | [4,  5,  6,  7 ] |  5.50 |
+| [M]***Magic***    | [13, 13, 14, 19] | 14.75 |
+| Magic Defence     | [7,  7,  8,  10] |  8.00 |
 
 | Skills        | Effect                                                                      | Cost |
 | ------------- | --------------------------------------------------------------------------- | ---- |
