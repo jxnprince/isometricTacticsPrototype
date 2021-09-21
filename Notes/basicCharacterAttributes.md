@@ -38,10 +38,7 @@ Metric indicative of overall unit power.  A unit gains experience upon killing e
 |        4        |    399    |
 |        5        |    499    |
 |        6        |    599    |
-|        7        |    699    |
-|        8        |    799    |
-|        9        |    899    |
-|        10       |    999    |
+|        7        |    666    |
 
 # Character Actions
 ## Move
