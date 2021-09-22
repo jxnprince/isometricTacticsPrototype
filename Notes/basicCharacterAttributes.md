@@ -156,7 +156,7 @@ Class specializes in the  &  stats with light specialization in .
 | Stat          | Possible L1 stats|
 | ------------- | ---------------- |
 | Health Points | [,,,,]       |
-| Stamina       | [,,,,]       |
+| Stamina       | [,,,,]      |
 | Speed         | [,,,,]       |
 | Strength      | [,,,,]       |
 | Defence       | [,,,,]       |
