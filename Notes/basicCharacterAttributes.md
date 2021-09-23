@@ -90,7 +90,7 @@ Class specializes in the Stength stat with light specialization in Health Points
 | Strength Within | Gain +5 strength this turn.  Lose 1 strength per turn indefinitely for the remainder of the battle.  Original stat is restored at the end of the battle.                                                                                     |  3   |
 
 ## **Rogue / Archer**
-Class specializes in the Speed stat with light specialization in Magic & Stamina.
+Class specializes in the Speed stat with light specialization in Magic & Stamina. 11.14
 | Stat          | Possible L1 stats| Avg   |
 | ------------- | ---------------- | ----- |
 | Health Points | [9,  9,  10, 11] |  9.75 |
@@ -110,7 +110,7 @@ Class specializes in the Speed stat with light specialization in Magic & Stamina
 | Kneecap       | Half the defence of an enemy unit for the rest of their turn.               |  3   |
 7
 ## **Mage**
-Class specializes in the Magic Defence stat with light specialization in Health Points & Magic.
+Class specializes in the Magic Defence stat with light specialization in Health Points & Magic. 8.9
 | Stat                  | Possible L1 stats | Avg   |
 | --------------------- | ----------------  | ----- |
 | **[m]Health Points**  | [8,  8,  9, 10]   |  8.75 |
@@ -130,7 +130,7 @@ Class specializes in the Magic Defence stat with light specialization in Health 
 | Mutation      | Gain +10 Magic this turn.  Lose 2 magic per turnindefinitely for the remainder of the battle.  Original stat is restored at the end of the battle.                                                                                       |  3   |
 
 ## **Cleric**
-Class heavy specialization in the Magic stat.
+Class heavy specialization in the Magic stat. 8.28
 | Stat              | Possible L1 stats| Avg  |
 | ----------------- | ---------------- | ---- |
 | Health Points     | [8,  8,  8,  9 ] |  8.25 |
