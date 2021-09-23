@@ -70,16 +70,16 @@ Metric indicative of overall unit power.  A unit gains experience upon killing e
 
 # Character Classes
 ## **Fighter**
-Class specializes in the Stength stat with light specialization in Health Points & Defence. 9.857
+Class specializes in the Stength stat with light specialization in Health Points & Defence. 10.035 avg 
 | Stat              | Possible L1 stats | Avg   |
 | ----------------- | ----------------- | ----- |
 | **Health Points** | [13, 13, 14, 15]  | 13.75 |
 | Stamina           | [8,  10,  10, 11] |  9.75 |
-| Speed             | [8,  8,  9,  11]  |  9.00 |
-| ***Strength***    | [12, 15, 15, 18]  | 15.00 |
+| Speed             | [8,  9,  9,  11]  |  9.25 |
+| ***Strength***    | [14, 15, 15, 18]  | 15.50 |
 | **Defence**       | [10, 11, 11, 13]  | 11.25 |
-| Magic             | [5,  5,  5,  7 ]  |  5.50 |
-| Magic Defence     | [4,  4,  5,  6 ]  |  4.75 |
+| Magic             | [5,  5,  6,  7 ]  |  5.75 |
+| Magic Defence     | [4,  5,  5,  6 ]  |  5.00 |
 
 | Skills          | Effect                                                                      | Cost |
 | --------------- | --------------------------------------------------------------------------- | ---- |
