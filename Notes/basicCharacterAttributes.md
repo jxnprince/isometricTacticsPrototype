@@ -3,6 +3,21 @@
 ### **Health Points**
 When a character's health points reach zero, the character is removed from the battle's turn order. If they are not restored by an item or resurrection spell by the end of a battle, they are then removed from the run permanently.  Maximum stat value is 99.
 
+| Health level | HP  |
+| -----------  | --- |
+| 1            | 10  |
+| 10           | 100 |
+| 20           | 200 |
+| 30           | 300 |
+| 40           | 400 |
+| 50           | 500 |
+| 60           | 600 |
+| 70           | 700 |
+| 80           | 800 |
+| 90           | 900 |
+| 99           | 999 |
+
+
 ### **Stamina**
 Stat governing the number of actions a player can take in a turn.  After use stamina is depleted until it is said character's turn again. Maximum stat value is 99.
 | Stamina level | Number of actions|
