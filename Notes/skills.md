@@ -1,7 +1,7 @@
 # Base Weapons
 | Weapon              | Scaling           | Class              | Skills          | EXP to Master |
 | --------------------| ----------------- | ------------------ | --------------- | ------------- |
-| Short Sword         | D - STR / D - SPD | Figher / Rogue     | Focus           ||
+| Short Sword         | D - STR / D - SPD | Figher / Rogue     | Focus           | |
 | Aeodonis Blade      | C - STR / D - SPD | Fighter            | Wind Slash      ||
 | Rock Gauntlets      | B - STR           | Figher             | Whirlwind       ||
 | Crystal Fists       | B - STR           | Fighter            | Berserk         ||
