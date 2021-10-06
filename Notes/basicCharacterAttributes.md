@@ -95,7 +95,7 @@ Class specializes in the Stength stat with light specialization in Health Points
 | Skills          | Effect                                                                      | Cost |
 | --------------- | --------------------------------------------------------------------------- | ---- |
 | Focus           | Next turn gain +1 action.                                                   |  1   |
-| Wind Slash      | Hit the 2 tiles in front of the user.                                       |  1   |
+| Wind Smash      | Hit the 3 tiles in front of the user.                                       |  1   |
 | Whirlwind       | Hit all adjacent tiles. All targets recieve 1 knockback.                    |  2   |
 | Berserk         | This turn, half your defence to double your strength.                       |  2   |
 | Strength Within | Gain +5 strength this turn.  Lose 1 strength per turn indefinitely for the remainder of the battle.  Original stat is restored at the end of the battle.                                                                                     |  3   |
@@ -118,8 +118,10 @@ Class specializes in the Speed stat with light specialization in Magic & Stamina
 | Focus         | Next turn gain +1 action.                                                   |  1   |
 | Double shot   | This turn this unit's next bow attack happens twice.                        |  1   |
 | Scope         | This turn this unit's bow attacks have double range.                        |  2   |
+| Ghost Arrow   | All shots this turn go through level geometry.                              |  2   |
 | Kneecap       | Half the defence of an enemy unit for the rest of their turn.               |  3   |
-7
+
+
 ## **Mage**
 Class specializes in the Magic Defence stat with light specialization in Health Points & Magic. 8.9
 | Stat                  | Possible L1 stats | Avg   |
@@ -134,7 +136,7 @@ Class specializes in the Magic Defence stat with light specialization in Health 
 
 | Skills        | Effect                                                                      | Cost |
 | ------------- | --------------------------------------------------------------------------- | ---- |
-| Heal          | Heal an adjacent unit for ~30% of their maximum health.                     |  1   |
+| Heal          | Heal all adjacent tiles for ~30% of their maximum health.                   |  1   |
 | Magical Sword | Hit the 3 perpendicular tiles in front of user.                             |  1   |
 | Magical Shot  | Fire magic arrow.                                                           |  1   |
 | Rock Body     | Gain +2 Defence for each spell this unit has cast this battle & prevents knockback for the rest of the battle Can only be cast once per battle.                                                                                                 |  2   |
