@@ -24,8 +24,7 @@ Stat governing the number of actions a player can take in a turn.  After use sta
 | ------------- | ---------------- |
 | 1             | 2                |
 | 25            | 3                |
-| 50            | 4                |
-| 99            | 5                |
+| 99            | 6                |
 
 ### **Speed**
 Stat governing when a character will appear in the turn order.  Higher speed characters appear higher in the turn order and can, with certain abilities, gain additional points of stamina every turn. Maximum stat value is 99.
