@@ -63,10 +63,7 @@ Metric indicative of overall unit power.  A unit gains experience upon killing e
  |      5     |       3       |
  |     10     |       4       |
  |     25     |       5       |
- |     40     |       6       |
- |     55     |       7       |
- |     70     |       8       | 
- |     85     |       9       |
+ |     50     |       7       |
  |     99     |      10       |
  
 ## Attack
