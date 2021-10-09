@@ -2,7 +2,7 @@
 
 ### **Health Points**
 When a character's health points reach zero, the character is removed from the battle's turn order. If they are not restored by an item or resurrection spell by the end of a battle, they are then removed from the run permanently.  Maximum stat value is 99. 
-
+ 
 | Health level | HP  |
 | -----------  | --- |
 | 1            | 1  |
