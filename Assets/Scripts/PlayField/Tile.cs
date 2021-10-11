@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    [SerializeField] private Material _baseTexture, _offsetTexture;
+    [SerializeField] private MeshRenderer _renderer;
+    
+    public void Init(bool isOffset){
+        _renderer.material = isOffset ? _offsetTexture : _baseTexture;
     }
 }

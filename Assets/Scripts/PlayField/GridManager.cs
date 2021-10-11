@@ -17,6 +17,9 @@ public class GridManager : MonoBehaviour{
             for (int z = 0; z < _height; z++){
                 var spawnedTile = Instantiate(_tilePrefab, new Vector3(x, 0, z), Quaternion.identity);
                 spawnedTile.name = $"Tile ({x},{z})";
+
+            var isOffset = (x % 2 != z % 2);
+            spawnedTile.Init(isOffset);
             }
         }
     }
