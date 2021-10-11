@@ -384,3 +384,155 @@ Received Import Request.
 Start importing Assets/Scenes/12X12 Flat Board.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c60bd9f636e8b46de2cb0b1a07523a') in 0.055511 seconds
   Import took 0.086911 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.069531 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.880 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.0 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1604.
+Total: 2.756771 ms (FindLiveObjects: 0.427638 ms CreateObjectMapping: 0.073085 ms MarkObjects: 2.172380 ms  DeleteObjects: 0.081807 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.065169 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.008 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.8 MB.
+System memory in use after: 119.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1606.
+Total: 1.999851 ms (FindLiveObjects: 0.191737 ms CreateObjectMapping: 0.051282 ms MarkObjects: 1.695743 ms  DeleteObjects: 0.059916 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1015.863619 seconds.
+  path: Assets/Scripts/PlayField/Tile.cs
+  artifactKey: Guid(40f928c4350744c19a2228b273a39077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayField/Tile.cs using Guid(40f928c4350744c19a2228b273a39077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98551cc0281fd50b70f3b36fefbf4cf1') in 0.015729 seconds
+  Import took 0.047344 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.066442 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.093 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.4 MB.
+System memory in use after: 120.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1608.
+Total: 2.488269 ms (FindLiveObjects: 0.284429 ms CreateObjectMapping: 0.070625 ms MarkObjects: 2.042798 ms  DeleteObjects: 0.088783 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.722756 seconds.
+  path: Assets/Scripts/PlayField/Tile.cs
+  artifactKey: Guid(40f928c4350744c19a2228b273a39077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayField/Tile.cs using Guid(40f928c4350744c19a2228b273a39077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0137b8d18e77a9eb839a0817c40622') in 0.010694 seconds
+  Import took 0.053748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.792824 seconds.
+  path: Assets/Scripts/PlayField/Grid.cs
+  artifactKey: Guid(0c1af0468d4174421b7f11857c0aa765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayField/Grid.cs using Guid(0c1af0468d4174421b7f11857c0aa765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59d45314b29fc0ce9f2802c937904d1') in 0.028058 seconds
+  Import took 0.079260 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.059940 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1611.
+Total: 2.954091 ms (FindLiveObjects: 0.324631 ms CreateObjectMapping: 0.096959 ms MarkObjects: 2.435757 ms  DeleteObjects: 0.094501 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.902917 seconds.
+  path: Assets/Scripts/PlayField/GridGenerator.cs
+  artifactKey: Guid(0c1af0468d4174421b7f11857c0aa765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayField/GridGenerator.cs using Guid(0c1af0468d4174421b7f11857c0aa765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e84388b809cef18cbeaa383f2e2b0c4') in 0.006373 seconds
+  Import took 0.098888 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.081595 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.5 MB.
+System memory in use after: 120.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1613.
+Total: 3.948938 ms (FindLiveObjects: 0.383649 ms CreateObjectMapping: 0.114954 ms MarkObjects: 3.323447 ms  DeleteObjects: 0.124264 ms)
+
