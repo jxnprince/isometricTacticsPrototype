@@ -6,7 +6,7 @@ public class Tile : MonoBehaviour
 {
     [SerializeField] private Material _baseTexture, _offsetTexture;
     [SerializeField] private MeshRenderer _renderer;
-    [SerializeField] private GameObject _highlight;
+    [SerializeField] public GameObject _highlight;
     
     public void Init(bool isOffset){
         _renderer.material = isOffset ? _offsetTexture : _baseTexture;
