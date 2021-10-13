@@ -86,33 +86,33 @@ public class cameraController : MonoBehaviour
         }
 
         //Camera Panning
-        if((Input.GetKey(KeyCode.W))) //Supports `WASD` & Arrow Keys
+        if((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))) //Supports `WASD` & arrow keys
         {
-            if(newPosition[1] < 45.8f) //Upper camera limit
-            {
+            // if(newPosition[1] < 45.8f) //Upper camera limit
+            // {
             newPosition += (transform.forward * movementSpeed);
-            }
+            // }
         }
-        if(Input.GetKey(KeyCode.S))
+        if(Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
         {
-            if(newPosition[1] > 43.4f) //Lower camera limit
-            {
+            // if(newPosition[1] > 43.4f) //Lower camera limit
+            // {
             newPosition += (transform.forward * -movementSpeed);
-            }
+            // }
         }
-        if(Input.GetKey(KeyCode.D))
+        if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
-            if(newPosition[0] < -40f) //Right camera limit
-            {
+            // if(newPosition[0] < -40f) //Right camera limit
+            // {
             newPosition += (transform.right * movementSpeed);
-            }
+            // }
         }
-        if(Input.GetKey(KeyCode.A))
+        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
-            if(newPosition[0] > -50f) //Left camera limit
-            {
+            // if(newPosition[0] > -50f) //Left camera limit
+            // {
             newPosition += (transform.right * -movementSpeed);
-            }
+            // }
         }
 
         //Camera Rotation
