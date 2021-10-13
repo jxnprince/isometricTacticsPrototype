@@ -20,4 +20,9 @@ public class Tile : MonoBehaviour
         _highlight.SetActive(false); //Hides highlight object.
     }
 
+    public void OnMouseDown()
+    {
+        CameraController.instance.followTransform = transform;
+    }
+
 }
