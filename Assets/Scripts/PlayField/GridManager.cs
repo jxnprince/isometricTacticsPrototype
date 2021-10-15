@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GridManager : MonoBehaviour{
 
-    [SerializeField] private int _width, _height; //Total width and hieght for a square playfield
+    [SerializeField] private int _width, _height; //Total width and height for a square playfield
     [SerializeField] private Tile _tilePrefab; //Selects a prefab tile in Unity
     public Dictionary<Vector3, Tile> tiles; //Dictionary to track reference all created tiles
 
