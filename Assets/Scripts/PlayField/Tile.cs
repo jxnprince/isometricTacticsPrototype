@@ -7,7 +7,10 @@ public class Tile : MonoBehaviour
     [SerializeField] private Material _baseTexture, _offsetTexture; //Grabs alternating Materials in Unity with textures applied.
     [SerializeField] private MeshRenderer _renderer; //Renders a mesh around each instance of a tile.
     [SerializeField] public GameObject _highlight; //Grabs highlight GameObject in Unity.
-    
+    public int id;
+    public Vector3 position;
+
+
     public void Init(bool isOffset){
         _renderer.material = isOffset ? _offsetTexture : _baseTexture; //Alternately applies textures to each generated Tile for checkerboard pattern.
     }
