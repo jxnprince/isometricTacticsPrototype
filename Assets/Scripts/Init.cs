@@ -12,7 +12,7 @@ public class Init : MonoBehaviour
     void Start()
     {
         state.Init();
-        gridManager.GenerateGrid(state.tileState);
+        gridManager.GenerateGrid(state);
         state.Log();
     }
 

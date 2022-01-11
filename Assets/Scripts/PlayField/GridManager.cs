@@ -9,7 +9,7 @@ public class GridManager : MonoBehaviour {
     [SerializeField] private Tile _tilePrefab; //Selects a prefab tile in Unity
     public Dictionary<int, Tile> tiles; //Dictionary to track reference all created tiles
 
-    public void GenerateGrid(Dictionary<string, dynamic> tileState){
+    public void GenerateGrid(MainState state){
         tiles = new Dictionary<int, Tile>();
 
         int i = 1;
@@ -21,7 +21,7 @@ public class GridManager : MonoBehaviour {
                 spawnedTile.name = $"{i}";
                 i += 1;
                 var isOffset = (x % 2 != z % 2);//determines if it is an even or odd tile
-                spawnedTile.Init(isOffset);//Init property assigns textures and materials to tiles.
+                spawnedTile.Init(isOffset, state);//Init property assigns textures and materials to tiles.
 
                 tiles[spawnedTile.id] = spawnedTile; //stores the tile and it's vector in the dictionary.
                 spawnedTile.transform.parent = gameObject.transform;
@@ -30,7 +30,7 @@ public class GridManager : MonoBehaviour {
             }
         }
 
-        tileState.Add("tiles", tiles);
+        //tileState.Add("tiles", tiles); // maybe useful later?
     }
 
     //public Tile GetTileAtPosition(Vector3 pos){

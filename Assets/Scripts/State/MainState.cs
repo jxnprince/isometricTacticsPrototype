@@ -6,6 +6,8 @@ public class MainState
 {
     public Dictionary<string, dynamic> tileState = new Dictionary<string, dynamic>();
 
+    public int theSelectedTileId = -1;
+
     public void Init()
     {
         Debug.Log("MainState, Innit?");
@@ -17,5 +19,12 @@ public class MainState
         Debug.Log("MainState, Log?");
         //var output = JsonUtility.ToJson(tileState["tiles"][1], true);
         //Debug.Log(output);
+    }
+
+    public void SetSelectedTile(int selectedTileId)
+    {
+        theSelectedTileId = selectedTileId;
+        Debug.Log("MainState, selectedTileId");
+        Debug.Log(selectedTileId);
     }
 }

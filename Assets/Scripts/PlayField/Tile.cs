@@ -9,10 +9,13 @@ public class Tile : MonoBehaviour
     [SerializeField] public GameObject _highlight; //Grabs highlight GameObject in Unity.
     public int id;
     public Vector3 position;
+    private MainState mainState;
 
-
-    public void Init(bool isOffset){
+    public void Init(bool isOffset, MainState state){
         _renderer.material = isOffset ? _offsetTexture : _baseTexture; //Alternately applies textures to each generated Tile for checkerboard pattern.
+        mainState = state;
+        // Debug.Log("Tile id");
+        // Debug.Log(id);
     }
 
     void OnMouseEnter(){
@@ -26,6 +29,8 @@ public class Tile : MonoBehaviour
     public void OnMouseDown()
     {
         CameraController.instance.followTransform = transform;
+        // call state method to update selected tile
+        mainState.SetSelectedTile(id);
     }
 
 }
