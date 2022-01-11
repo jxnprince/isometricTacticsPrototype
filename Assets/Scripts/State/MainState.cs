@@ -24,7 +24,6 @@ public class MainState
     public void SetSelectedTile(int selectedTileId)
     {
         theSelectedTileId = selectedTileId;
-        Debug.Log("MainState, selectedTileId");
-        Debug.Log(selectedTileId);
+        Debug.Log($"MainState, SetSelectedTile, id: {selectedTileId}");
     }
 }
