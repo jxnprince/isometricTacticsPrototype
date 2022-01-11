@@ -9,13 +9,36 @@ public class Tile : MonoBehaviour
     [SerializeField] public GameObject _highlight; //Grabs highlight GameObject in Unity.
     public int id;
     public Vector3 position;
+
     private MainState mainState;
 
+    private bool _isSelected = false;
+    private bool _isOffset = false;
+
     public void Init(bool isOffset, MainState state){
+        _isOffset = isOffset;
         _renderer.material = isOffset ? _offsetTexture : _baseTexture; //Alternately applies textures to each generated Tile for checkerboard pattern.
         mainState = state;
         // Debug.Log("Tile id");
         // Debug.Log(id);
+    }
+
+    void Update()
+    {
+
+        if (!_isSelected && id == mainState.theSelectedTileId)
+        {
+            Debug.Log($"Tile {id} selected");
+            _isSelected = true;
+            _renderer.material.SetColor("_Color", Color.red);
+        }
+        if (_isSelected && id != mainState.theSelectedTileId)
+        {
+            Debug.Log($"Tile {id} deselected");
+            _isSelected = false;
+            _renderer.material = _isOffset ? _offsetTexture : _baseTexture;
+        }
+        
     }
 
     void OnMouseEnter(){
@@ -32,5 +55,6 @@ public class Tile : MonoBehaviour
         // call state method to update selected tile
         mainState.SetSelectedTile(id);
     }
+
 
 }
