@@ -24,13 +24,12 @@ public class GridManager : MonoBehaviour {
                 tile.Init(isOffset, state);//Init property assigns textures and materials to tiles.
 
                 tiles[tile.id] = tile; //stores the tile and it's vector in the dictionary.
-                tile.transform.parent = gameObject.transform;
+                tile.transform.parent = gameObject.transform; // add tile to GridManager object
 
-                //Debug.Log(tile);
             }
         }
 
-        //tileState.Add("tiles", tiles); // maybe useful later?
+        state.tileState.AddTiles(tiles);
     }
 
     //public Tile GetTileAtPosition(Vector3 pos){

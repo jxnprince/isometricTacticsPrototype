@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class MainState
 {
-    public Dictionary<string, dynamic> tileState = new Dictionary<string, dynamic>();
 
-    public int theSelectedTileId = -1;
+    public TileState tileState = new TileState();
 
     public void Init()
     {
@@ -21,9 +20,4 @@ public class MainState
         //Debug.Log(output);
     }
 
-    public void SetSelectedTile(int selectedTileId)
-    {
-        theSelectedTileId = selectedTileId;
-        Debug.Log($"MainState, SetSelectedTile, id: {selectedTileId}");
-    }
 }

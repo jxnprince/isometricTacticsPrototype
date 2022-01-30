@@ -9,6 +9,7 @@ public class Tile : MonoBehaviour
     [SerializeField] public GameObject _highlight; //Grabs highlight GameObject in Unity.
     public int id;
     public Vector3 position;
+    public bool occupied = false;
 
     private MainState mainState;
 
@@ -26,13 +27,13 @@ public class Tile : MonoBehaviour
     void Update()
     {
 
-        if (!_isSelected && id == mainState.theSelectedTileId)
+        if (!_isSelected && id == mainState.tileState.theSelectedTileId)
         {
             Debug.Log($"Tile {id} selected");
             _isSelected = true;
             _renderer.material.SetColor("_Color", Color.red);
         }
-        if (_isSelected && id != mainState.theSelectedTileId)
+        if (_isSelected && id != mainState.tileState.theSelectedTileId)
         {
             Debug.Log($"Tile {id} deselected");
             _isSelected = false;
@@ -53,7 +54,7 @@ public class Tile : MonoBehaviour
     {
         CameraController.instance.followTransform = transform;
         // call state method to update selected tile
-        mainState.SetSelectedTile(id);
+        mainState.tileState.SetSelectedTile(id);
     }
 
 
